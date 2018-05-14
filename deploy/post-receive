@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo "start Auto Deployment"
+
+git —work-tree=//deploy —git-dir=//remoteDeploy checkout -f
+
+echo "Deployment completed!"
